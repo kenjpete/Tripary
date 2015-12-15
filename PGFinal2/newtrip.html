@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Tripary</title>
+    <link type="text/css" rel="stylesheet" href="styles/jquery-ui.min.css" />
+    <link type="text/css" rel="stylesheet" href="styles/jquery-ui.structure.min.css" />
+    <link type="text/css" rel="stylesheet" href="styles/jquery-ui.theme.min.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            Tripary
+        </div>
+        <nav id="menu">
+            <input type="button" id="btnHome" name="home" value="Home" />
+            <input type="button" id="btnNewTrip" name="newtrip" value="New Trip" />
+            <input type="button" id="btnPhotos" name="photos" value="Photos" />
+            <input type="button" id="btnAbout" name="about" value="About" />
+        </nav>
+        <div id="DivNew">
+            <h3>Start a New Trip</h3>
+            <br />
+            <div id="DivMap"></div>
+            <div id="DivButtons"><input id="BtnNew" type="button" value="Add Location" />&nbsp;<input id="BtnList" type="button" value="View All" /></div>
+            <br />
+            <div id="DivEnterInfo">
+                <form onsubmit="return SavePoint();">
+                    <div id="DivEnterAddress">
+                        Enter and Address to find or click Find Me:
+                    </div> 
+                    <div id="DivAddress">
+                        <input id="TBAddress" type="text" class="TBLong" size="50" /><br />
+                        <input type="button" id="SpanFindAddress" name="FindAddress" value="Find Address" />
+                        <input type="button" id="SpanFindMe" name="FindMe" value="Find Me" />
+                        <!--<span id="SpanFindAddress" class="picSpan">
+                            <img src="images/BtnFineAddressSmall.png" class="picBorder" />
+                        </span>
+                        <span id="SpanFindMe" class="picSpan">
+                            <img src="images/BtnFindMeSmall.png" class="picBorder" />
+                        </span>-->
+                    </div>
+                    <p>
+                        <label for="txtDate"><strong>Date:</strong></label><br />
+                        <input type="text" name="tripdate" id="datepicker" />
+                    </p>
+                    <p>
+                        <label for="txtDate"><strong>Journal Entry:</strong></label> <br />
+                        <textarea name="journal" id="journal" rows="7" cols="45"></textarea>
+                    </p>
+                    <div id="DivSave">
+                        <input type="submit" id="BtnSave" value="Save Entry" class="btnLong" /><input type="reset" id="btnReset" value="Clear Form" />
+                    </div>
+                </form>
+            </div>
+            <div id="DivShowEntry">
+                <div id="PointInformation">
+                    <p><span class="pointSpan" id="SpanDate"></span><br />
+                    <p><span class="pointSpan" id="SpanAddress"></span><br />
+                    <p><span class="pointSpan" id="SpanPoint"></span></p>
+                    <p><span class="pointSpan" id="SpanComments"></span></p>
+                </div>
+                <div id="DivList"></div>
+                <br />
+                <div id="DivClear">
+                    <input type="button" id="BtnClear" value="clear points" class="btnLong" />
+                </div>
+            <br /><br />
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="scripts/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+    <script type="text/javascript" src="scripts/tripmaps.js"></script>
+</body>
+</html>

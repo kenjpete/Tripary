@@ -1,0 +1,328 @@
+﻿body {
+    background-color:white;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#header {
+    width: 100%;
+    background: #009900;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 20px 0px 10px 0px;
+}
+
+#menu {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+
+}
+
+
+p {text-align: center;}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h3 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#splash img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 15%;
+    text-align: center;
+    border: 1px solid green;
+    
+}
+
+input[type=button] {
+    border: 2px solid black;
+    color: black;
+    background-color: #e6e6e6;
+    font-size: 15px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 20px;
+}
+
+    input[type=button]:hover {
+        color: white;
+        background-color: black;
+    }
+
+    input[type=button]:active {
+        color: yellow;
+        background-color: black;
+    }
+
+input[type=submit] {
+    border: 2px solid black;
+    color: black;
+    background-color: #e6e6e6;
+    font-size: 15px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 20px;
+}
+input[type=reset] {
+    border: 2px solid black;
+    color: black;
+    background-color: #e6e6e6;
+    font-size: 15px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 20px;
+}
+input[type=text] {font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+textarea {font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; width: 80%;}
+
+#DivCapture {
+    display: none;
+}
+
+/* Home page styles*/
+#DivHeading {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#DivMag {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#DivNewTrip {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#DivEnterAddress {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+#SpanFindButtons {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+}
+#SpanFindAddress {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+}
+
+#SpanFindMe {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+#DivAddress, #DivSave, #DivClear {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#DivSave {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+DivShowEntry
+ {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+input#TBAddress {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+
+/* New Trip styles */
+#DivMap {
+    width: 85%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #009900;
+}
+
+
+
+#DivShowEntry {
+    display: none;
+}
+
+#DivList {
+    height: 200px;
+    width: 80%;
+    overflow: auto;
+    border: 2px solid #009900;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#fff;
+}
+
+#PointInformation{
+    display:none;
+}
+
+.btnLong {
+    border: 2px solid black;
+    color: black;
+    background-color: #e6e6e6;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+.TBLong {
+    width: 250px;
+    height: 20px;
+    font-size: 18px;
+}
+
+
+.picBorder {
+    border: 2px solid #009900;
+}
+
+.divListItem {
+    width: 390px;
+    border-bottom: 2px solid #008b8b;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    font-size: 18px;
+    text-align:left;
+}
+
+.pointSpan {
+    font-size:16px;
+}
+
+.left {
+    text-align:left;
+}
+
+input#btnSaveLoc {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+#DivButtons {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+input#btnSubmit {
+    margin: 20px 5px 5px 0px;
+    text-align: center;
+}
+input#btnReset {
+    margin: 5px 0px 5px 5px;
+    text-align: center;
+}
+
+input#btnTakePhoto {
+    margin: 20px 0px 5px 0px;
+    text-align: center;
+}
+
+input#btnTakeVideo {
+    margin: 20px 0px 5px 0px;
+    text-align: center;
+}
+
+/* Saved Trip styles */
+#DivSavedTrips {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#DivOpenPhotos {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+
+}
+
+#DivOutput {
+    margin: 5px 0px 20px 0px
+
+}
+input#btnOpenPhotos {
+    margin: 20px 0px 5px 0px;
+    text-align: center;
+}
+
+
+/* About styles */
+div#list {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div#list ul {
+    margin: 0;
+    padding: 0;
+}
+
+div#list ul li {
+   vertical-align: middle;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.message {
+    color: maroon;
+    font-weight: bold;
+}
